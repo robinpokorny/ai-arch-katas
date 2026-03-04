@@ -3,6 +3,9 @@ title: "02 PaperTrail"
 layout: default
 parent: Katas
 nav_order: 2
+redirect_from:
+  - /k02
+  - /katas/02
 ---
 
 # Kata 2: PaperTrail
@@ -32,5 +35,3 @@ A mid-size consultancy serving pharmaceutical and financial clients needs a syst
 ## Additional context
 
 The current system is a SharePoint instance that everyone hates. Migration must be incremental — no big bang.
-
-[Back to all katas](../README.md#the-katas)

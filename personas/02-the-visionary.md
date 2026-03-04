@@ -3,6 +3,9 @@ title: "02 The Visionary"
 layout: default
 parent: Personas
 nav_order: 2
+redirect_from:
+  - /p02
+  - /personas/02
 ---
 
 # The Visionary
@@ -62,5 +65,3 @@ love of the newest, shiniest, most futuristic technology available.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

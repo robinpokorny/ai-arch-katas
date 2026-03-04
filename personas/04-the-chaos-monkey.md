@@ -3,6 +3,9 @@ title: "04 The Chaos Monkey"
 layout: default
 parent: Personas
 nav_order: 4
+redirect_from:
+  - /p04
+  - /personas/04
 ---
 
 # The Chaos Monkey
@@ -64,5 +67,3 @@ obsession with what can go wrong and how to survive it.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

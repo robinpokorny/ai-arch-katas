@@ -3,6 +3,9 @@ title: "06 The Compliance Officer"
 layout: default
 parent: Personas
 nav_order: 6
+redirect_from:
+  - /p06
+  - /personas/06
 ---
 
 # The Compliance Officer
@@ -66,5 +69,3 @@ obsession with security, privacy, and compliance.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

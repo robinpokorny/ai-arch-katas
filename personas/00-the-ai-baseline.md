@@ -78,5 +78,3 @@ them explicitly.
 ```
 
 After pasting the prompt, paste the full kata text and let the AI generate its solution without any follow-up interaction.
-
-[Back to all personas](../README.md#ai-persona-cards)

@@ -3,6 +3,9 @@ title: "01 The Archaeologist"
 layout: default
 parent: Personas
 nav_order: 1
+redirect_from:
+  - /p01
+  - /personas/01
 ---
 
 # The Archaeologist
@@ -61,5 +64,3 @@ deep love of proven, boring, legacy-friendly technology.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

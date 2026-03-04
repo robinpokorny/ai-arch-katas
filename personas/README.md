@@ -3,6 +3,7 @@ title: Personas
 layout: default
 nav_order: 4
 has_children: true
+permalink: /personas/
 ---
 
 # AI Persona Cards
@@ -21,15 +22,24 @@ The personas are deliberately one-dimensional. Real architects hold multiple con
 
 The prompt sets up the AI's character. Everything after that is your architectural conversation — filtered through that character's very specific worldview.
 
-<div id="random-persona-btn"></div>
+<div id="persona-actions"></div>
 <script>
   const personas = [{% for p in site.pages %}{% if p.parent == "Personas" and p.nav_order != 0 %}`{{ p.url | relative_url }}`,{% endif %}{% endfor %}];
-  const container = document.getElementById("random-persona-btn");
-  container.className = "my-4";
-  container.appendChild(Object.assign(document.createElement("a"), {
-    className: "btn btn-blue",
-    textContent: "🎭 Random Persona",
-    href: "#",
-    onclick: (e) => { e.preventDefault(); window.location.href = personas[Math.floor(Math.random() * personas.length)]; },
-  }));
+  const container = document.getElementById("persona-actions");
+  container.className = "d-flex my-4";
+  container.style.gap = "1rem";
+
+  const buttons = [
+    { label: "🎭 Random Persona", cls: "btn-blue", href: "#", onclick: (e) => { e.preventDefault(); window.location.href = personas[Math.floor(Math.random() * personas.length)]; } },
+    { label: "🖨 Print Cards", cls: "btn-outline", href: `{{ '/personas/print/' | relative_url }}` },
+  ];
+
+  buttons.forEach(({ label, cls, href, onclick }) =>
+    container.appendChild(Object.assign(document.createElement("a"), {
+      className: `btn ${cls}`,
+      textContent: label,
+      href,
+      ...(onclick && { onclick }),
+    }))
+  );
 </script>

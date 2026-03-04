@@ -5,8 +5,13 @@ description: >-
 
 theme: just-the-docs
 
-url: ""
-baseurl: ""
+url: "https://robinpokorny.github.io"
+baseurl: "/ai-arch-katas"
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-redirect-from
 
 # Navigation
 nav_sort: case_insensitive
@@ -41,6 +46,10 @@ callouts:
   tip:
     title: Tip
     color: green
+
+# Include README files (Jekyll skips them by default)
+include:
+  - README.md
 
 # Exclude from processing
 exclude:

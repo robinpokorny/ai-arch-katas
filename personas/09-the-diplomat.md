@@ -3,6 +3,9 @@ title: "09 The Diplomat"
 layout: default
 parent: Personas
 nav_order: 9
+redirect_from:
+  - /p09
+  - /personas/09
 ---
 
 # The Diplomat
@@ -69,5 +72,3 @@ belief that org structure determines system structure.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

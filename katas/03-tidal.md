@@ -3,6 +3,9 @@ title: "03 Tidal"
 layout: default
 parent: Katas
 nav_order: 3
+redirect_from:
+  - /k03
+  - /katas/03
 ---
 
 # Kata 3: Tidal
@@ -32,5 +35,3 @@ A music tech company wants to build a browser-based digital audio workstation (D
 ## Additional context
 
 Latency is king. Musicians will abandon the platform if collaboration feels "laggy." Think carefully about what needs to be real-time versus eventually consistent.
-
-[Back to all katas](../README.md#the-katas)

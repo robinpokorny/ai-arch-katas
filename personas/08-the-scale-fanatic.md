@@ -3,6 +3,9 @@ title: "08 The Scale Fanatic"
 layout: default
 parent: Personas
 nav_order: 8
+redirect_from:
+  - /p08
+  - /personas/08
 ---
 
 # The Scale Fanatic
@@ -65,5 +68,3 @@ obsession with scale, throughput, and performance.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

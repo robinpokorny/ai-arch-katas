@@ -1,0 +1,55 @@
+---
+title: Print Persona Cards
+layout: print
+nav_exclude: true
+search_exclude: true
+permalink: /personas/print/
+---
+
+<div class="print-header">
+  <h1>AI Persona Cards</h1>
+  <p>Print this page, cut along the card borders, and hand one card to each team.</p>
+  <a class="back-link" href="{{ '/' | relative_url }}">&larr; Back to home</a>
+</div>
+
+{% assign personas = site.pages
+   | where: "parent", "Personas"
+   | sort: "nav_order" %}
+
+{% assign card_index = 0 %}
+{% for persona in personas %}
+  {% if persona.nav_order == 0 %}{% continue %}{% endif %}
+
+  {% comment %} Open a new card-page every 4 cards {% endcomment %}
+  {% assign mod = card_index | modulo: 4 %}
+  {% if mod == 0 %}
+    {% if card_index > 0 %}</div>{% endif %}
+    <div class="card-page">
+  {% endif %}
+
+  {% capture rendered %}{{ persona.content | markdownify }}{% endcapture %}
+  {% assign before_prompt = rendered | split: "<hr" | first %}
+
+  {% if persona.nav_order < 10 %}
+    {% assign short_code = "/p0" | append: persona.nav_order %}
+  {% else %}
+    {% assign short_code = "/p" | append: persona.nav_order %}
+  {% endif %}
+  {% assign short_url = short_code | absolute_url %}
+
+  <div class="card">
+    <div class="card-tag">AI-Enabled Architectural Katas</div>
+    {{ before_prompt }}
+    <div class="card-footer">
+      <a class="short-url" href="{{ persona.url | relative_url }}">{{ short_code }}</a>
+      <img
+        src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&amp;data={{ short_url | uri_encode }}"
+        alt="QR code for {{ persona.title }}"
+      >
+    </div>
+  </div>
+
+  {% assign card_index = card_index | plus: 1 %}
+{% endfor %}
+
+</div>

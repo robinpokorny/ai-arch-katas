@@ -3,6 +3,9 @@ title: "03 The Accountant"
 layout: default
 parent: Personas
 nav_order: 3
+redirect_from:
+  - /p03
+  - /personas/03
 ---
 
 # The Accountant
@@ -64,5 +67,3 @@ obsession with minimising cost.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

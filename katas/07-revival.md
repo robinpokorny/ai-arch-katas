@@ -3,6 +3,9 @@ title: "07 Revival"
 layout: default
 parent: Katas
 nav_order: 7
+redirect_from:
+  - /k07
+  - /katas/07
 ---
 
 # Kata 7: Revival
@@ -33,5 +36,3 @@ A non-profit working with indigenous communities wants to build a platform where
 ## Additional context
 
 This is not just a technical problem. Data sovereignty means the architecture must allow communities to physically own their data — possibly on-premise hardware donated to the community. Centralised cloud is acceptable only as an opt-in replication target.
-
-[Back to all katas](../README.md#the-katas)

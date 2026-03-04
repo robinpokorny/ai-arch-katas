@@ -3,6 +3,9 @@ title: "06 Nomad"
 layout: default
 parent: Katas
 nav_order: 6
+redirect_from:
+  - /k06
+  - /katas/06
 ---
 
 # Kata 6: Nomad
@@ -33,5 +36,3 @@ A future-of-work startup building tools for fully distributed companies (no offi
 ## Additional context
 
 The founders believe meetings are a bug, not a feature. The architecture should reflect this philosophy — no component should require synchronous interaction.
-
-[Back to all katas](../README.md#the-katas)

@@ -3,6 +3,9 @@ title: "09 Bazaar"
 layout: default
 parent: Katas
 nav_order: 9
+redirect_from:
+  - /k09
+  - /katas/09
 ---
 
 # Kata 9: Bazaar
@@ -33,5 +36,3 @@ An artisan collective wants to build an alternative to Etsy — fully decentrali
 ## Additional context
 
 The collective has strong opinions about platform power. The architecture must avoid creating any single point of control. They've looked at ActivityPub and AT Protocol for inspiration.
-
-[Back to all katas](../README.md#the-katas)

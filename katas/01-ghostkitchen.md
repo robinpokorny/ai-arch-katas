@@ -3,6 +3,9 @@ title: "01 GhostKitchen"
 layout: default
 parent: Katas
 nav_order: 1
+redirect_from:
+  - /k01
+  - /katas/01
 ---
 
 # Kata 1: GhostKitchen
@@ -31,5 +34,3 @@ A startup wants to build a platform where chefs can launch virtual restaurant br
 ## Additional context
 
 The founder insists on "no microservices — keep it simple." The CTO disagrees. This tension is part of the problem.
-
-[Back to all katas](../README.md#the-katas)

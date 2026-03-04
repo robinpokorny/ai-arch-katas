@@ -3,6 +3,9 @@ title: "05 Polyglot"
 layout: default
 parent: Katas
 nav_order: 5
+redirect_from:
+  - /k05
+  - /katas/05
 ---
 
 # Kata 5: Polyglot
@@ -33,5 +36,3 @@ An events company wants to build a platform that provides real-time speech trans
 ## Additional context
 
 The company currently uses human interpreters. The platform doesn't replace them — it augments them. Human interpreters can override/correct the AI translation in real time.
-
-[Back to all katas](../README.md#the-katas)

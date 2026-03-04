@@ -3,6 +3,9 @@ title: "05 The User Whisperer"
 layout: default
 parent: Personas
 nav_order: 5
+redirect_from:
+  - /p05
+  - /personas/05
 ---
 
 # The User Whisperer
@@ -66,5 +69,3 @@ deep care for the humans who will actually use the system.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

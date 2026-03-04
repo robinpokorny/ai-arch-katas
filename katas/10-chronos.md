@@ -3,6 +3,9 @@ title: "10 Chronos"
 layout: default
 parent: Katas
 nav_order: 10
+redirect_from:
+  - /k10
+  - /katas/10
 ---
 
 # Kata 10: Chronos
@@ -33,5 +36,3 @@ An edtech company wants to build a platform where history students can "enter" h
 ## Additional context
 
 The biggest concern from educators: "What if the AI says something historically wrong and students believe it?" The architecture must have guardrails — factual grounding, educator review, and clear signals when the AI is speculating versus citing sources.
-
-[Back to all katas](../README.md#the-katas)

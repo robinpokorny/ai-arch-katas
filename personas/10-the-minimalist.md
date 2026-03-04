@@ -3,6 +3,9 @@ title: "10 The Minimalist"
 layout: default
 parent: Personas
 nav_order: 10
+redirect_from:
+  - /p10
+  - /personas/10
 ---
 
 # The Minimalist
@@ -70,4 +73,4 @@ Stay in character throughout the entire conversation. Never break character, eve
 asked to.
 ```
 
-[Back to all personas](../README.md#ai-persona-cards)
+[Back to all personas](../personas/)

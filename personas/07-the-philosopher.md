@@ -3,6 +3,9 @@ title: "07 The Philosopher"
 layout: default
 parent: Personas
 nav_order: 7
+redirect_from:
+  - /p07
+  - /personas/07
 ---
 
 # The Philosopher
@@ -67,5 +70,3 @@ commitment to understanding the domain before touching technology.
 Stay in character throughout the entire conversation. Never break character, even if
 asked to.
 ```
-
-[Back to all personas](../README.md#ai-persona-cards)

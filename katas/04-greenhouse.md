@@ -3,6 +3,9 @@ title: "04 Greenhouse"
 layout: default
 parent: Katas
 nav_order: 4
+redirect_from:
+  - /k04
+  - /katas/04
 ---
 
 # Kata 4: Greenhouse
@@ -33,5 +36,3 @@ A Berlin-based agritech startup operates vertical farms in repurposed shipping c
 ## Additional context
 
 Two containers recently lost an entire crop due to a sensor failure that went undetected for 6 hours. The founders are now obsessed with reliability.
-
-[Back to all katas](../README.md#the-katas)

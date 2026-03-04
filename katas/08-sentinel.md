@@ -3,6 +3,9 @@ title: "08 Sentinel"
 layout: default
 parent: Katas
 nav_order: 8
+redirect_from:
+  - /k08
+  - /katas/08
 ---
 
 # Kata 8: Sentinel
@@ -33,5 +36,3 @@ A European city government wants a system to monitor bridges, tunnels, water mai
 ## Additional context
 
 The city had a near-miss incident where a bridge showed stress fractures that sensors detected but nobody noticed for 3 weeks because the data was trapped in a silo. This project is the response.
-
-[Back to all katas](../README.md#the-katas)
