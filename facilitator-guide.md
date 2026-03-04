@@ -66,7 +66,7 @@ These are the heart of the learning. Don't skip this part.
 - WiFi strong enough for everyone to use AI tools simultaneously
 - A projector or screen for presentations
 - The chosen kata printed or projected (same for everyone)
-- Printed persona cards (one per team) — or share the GitHub links
+- Printed persona cards (one per team) — use the [print-ready page](./personas/print.html) or share the short links
 - Whiteboard, flip chart, or paper for teams to sketch diagrams
 - A timer visible to all teams
 - A laptop/device for the facilitator to run the AI baseline in the background
@@ -75,5 +75,13 @@ These are the heart of the learning. Don't skip this part.
 
 - [`katas/`](./katas/) — 10 architectural katas to choose from (pick one for the event)
 - [`personas/`](./personas/) — 10 AI persona cards + the AI baseline prompt (one file each, with copy-pasteable prompts)
+- [Print-ready persona cards](./personas/print.html) — a page optimised for printing and cutting out physical cards
 
-[Back to main README](./README.md)
+## Short URLs
+
+Every kata and persona has a short URL you can share, print, or dictate during the event:
+
+- **Personas:** `/p01` through `/p10` (e.g. `/p03` for The Accountant) or `/personas/01` through `/personas/10`
+- **Katas:** `/k01` through `/k10` (e.g. `/k07` for Revival) or `/katas/01` through `/katas/10`
+
+The printed persona cards include QR codes that link directly to the full persona page.
