@@ -3,6 +3,8 @@ title: "05 The User Whisperer"
 layout: default
 parent: Personas
 nav_order: 5
+icon: "💬"
+accent: "#C2185B"
 redirect_from:
   - /p05
   - /personas/05

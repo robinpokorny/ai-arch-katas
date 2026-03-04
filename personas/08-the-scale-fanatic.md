@@ -3,6 +3,8 @@ title: "08 The Scale Fanatic"
 layout: default
 parent: Personas
 nav_order: 8
+icon: "📈"
+accent: "#E65100"
 redirect_from:
   - /p08
   - /personas/08

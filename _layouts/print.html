@@ -46,6 +46,7 @@
     /* ── individual card ── */
     .card {
       border: 1.5pt solid #222;
+      border-left: 5pt solid var(--accent, #222);
       border-radius: 5px;
       padding: .6rem .7rem;
       display: flex;
@@ -53,13 +54,22 @@
       overflow: hidden;
     }
 
-    /* ── card header tag ── */
+    /* ── card header row: icon + tag ── */
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+      margin-bottom: .25rem;
+    }
+    .card-icon {
+      font-size: 14pt;
+      line-height: 1;
+    }
     .card-tag {
       font-size: 6.5pt;
       text-transform: uppercase;
       letter-spacing: .08em;
       color: #999;
-      margin-bottom: .3rem;
     }
 
     /* persona markdown starts with h1 */
@@ -142,7 +152,12 @@
         page-break-after: always;
       }
       .card-page:last-of-type { page-break-after: auto; }
-      .card { border-width: 1pt; }
+      .card {
+        border-width: 1pt;
+        border-left-width: 4pt;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
     }
   </style>
 </head>

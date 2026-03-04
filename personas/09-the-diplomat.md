@@ -3,6 +3,8 @@ title: "09 The Diplomat"
 layout: default
 parent: Personas
 nav_order: 9
+icon: "🤝"
+accent: "#3949AB"
 redirect_from:
   - /p09
   - /personas/09

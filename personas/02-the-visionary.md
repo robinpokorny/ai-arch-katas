@@ -3,6 +3,8 @@ title: "02 The Visionary"
 layout: default
 parent: Personas
 nav_order: 2
+icon: "🔮"
+accent: "#7B2D8E"
 redirect_from:
   - /p02
   - /personas/02

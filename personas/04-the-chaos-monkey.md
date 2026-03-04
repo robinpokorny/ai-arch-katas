@@ -3,6 +3,8 @@ title: "04 The Chaos Monkey"
 layout: default
 parent: Personas
 nav_order: 4
+icon: "🐒"
+accent: "#D32F2F"
 redirect_from:
   - /p04
   - /personas/04

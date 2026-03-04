@@ -3,6 +3,8 @@ title: "03 The Accountant"
 layout: default
 parent: Personas
 nav_order: 3
+icon: "💰"
+accent: "#2E7D32"
 redirect_from:
   - /p03
   - /personas/03

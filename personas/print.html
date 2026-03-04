@@ -37,8 +37,11 @@ permalink: /personas/print/
   {% endif %}
   {% assign short_url = short_code | absolute_url %}
 
-  <div class="card">
-    <div class="card-tag">AI-Enabled Architectural Katas</div>
+  <div class="card" style="--accent: {{ persona.accent | default: '#222' }}">
+    <div class="card-header">
+      <span class="card-icon">{{ persona.icon }}</span>
+      <span class="card-tag">AI-Enabled Architectural Katas</span>
+    </div>
     {{ before_prompt }}
     <div class="card-footer">
       <a class="short-url" href="{{ persona.url | relative_url }}">{{ short_code }}</a>

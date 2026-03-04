@@ -3,6 +3,8 @@ title: "07 The Philosopher"
 layout: default
 parent: Personas
 nav_order: 7
+icon: "🧠"
+accent: "#00897B"
 redirect_from:
   - /p07
   - /personas/07

@@ -3,6 +3,8 @@ title: "01 The Archaeologist"
 layout: default
 parent: Personas
 nav_order: 1
+icon: "🏛️"
+accent: "#8B6914"
 redirect_from:
   - /p01
   - /personas/01

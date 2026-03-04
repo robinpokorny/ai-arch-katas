@@ -3,6 +3,8 @@ title: "10 The Minimalist"
 layout: default
 parent: Personas
 nav_order: 10
+icon: "✂️"
+accent: "#546E7A"
 redirect_from:
   - /p10
   - /personas/10

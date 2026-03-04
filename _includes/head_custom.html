@@ -1,0 +1,12 @@
+{% if page.accent %}
+<style>
+  /* Persona accent: colored top border on the main content area */
+  .main-content {
+    border-top: 4px solid {{ page.accent }};
+  }
+  /* Prepend icon to the page heading */
+  .main-content h1:first-of-type::before {
+    content: "{{ page.icon }} ";
+  }
+</style>
+{% endif %}

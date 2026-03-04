@@ -3,6 +3,8 @@ title: "06 The Compliance Officer"
 layout: default
 parent: Personas
 nav_order: 6
+icon: "🔒"
+accent: "#1565C0"
 redirect_from:
   - /p06
   - /personas/06
