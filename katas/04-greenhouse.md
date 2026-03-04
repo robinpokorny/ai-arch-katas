@@ -1,3 +1,10 @@
+---
+title: "04 Greenhouse"
+layout: default
+parent: Katas
+nav_order: 4
+---
+
 # Kata 4: Greenhouse
 
 **An IoT platform for urban vertical farms.**

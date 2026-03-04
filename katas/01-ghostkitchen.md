@@ -1,3 +1,10 @@
+---
+title: "01 GhostKitchen"
+layout: default
+parent: Katas
+nav_order: 1
+---
+
 # Kata 1: GhostKitchen
 
 **A platform for restaurants that exist only online.**

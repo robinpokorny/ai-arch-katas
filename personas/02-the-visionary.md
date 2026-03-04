@@ -1,3 +1,10 @@
+---
+title: "02 The Visionary"
+layout: default
+parent: Personas
+nav_order: 2
+---
+
 # The Visionary
 
 > *"Have you considered making it WebAssembly-native with a CRDT-based state layer?"*

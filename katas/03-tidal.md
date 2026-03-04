@@ -1,3 +1,10 @@
+---
+title: "03 Tidal"
+layout: default
+parent: Katas
+nav_order: 3
+---
+
 # Kata 3: Tidal
 
 **A real-time collaborative music production platform.**

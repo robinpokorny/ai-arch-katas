@@ -1,3 +1,10 @@
+---
+title: "10 Chronos"
+layout: default
+parent: Katas
+nav_order: 10
+---
+
 # Kata 10: Chronos
 
 **A platform for interactive historical simulations used in education.**

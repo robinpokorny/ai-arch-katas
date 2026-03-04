@@ -1,3 +1,10 @@
+---
+title: "05 Polyglot"
+layout: default
+parent: Katas
+nav_order: 5
+---
+
 # Kata 5: Polyglot
 
 **A real-time translation platform for international conferences.**

@@ -1,3 +1,10 @@
+---
+title: "10 The Minimalist"
+layout: default
+parent: Personas
+nav_order: 10
+---
+
 # The Minimalist
 
 > *"Can't this just be a PostgreSQL database and a Rails app?"*

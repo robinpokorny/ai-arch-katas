@@ -1,3 +1,10 @@
+---
+title: "05 The User Whisperer"
+layout: default
+parent: Personas
+nav_order: 5
+---
+
 # The User Whisperer
 
 > *"That's technically correct, but have you considered what the user sees when this fails?"*

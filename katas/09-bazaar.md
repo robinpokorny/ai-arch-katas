@@ -1,3 +1,10 @@
+---
+title: "09 Bazaar"
+layout: default
+parent: Katas
+nav_order: 9
+---
+
 # Kata 9: Bazaar
 
 **A peer-to-peer marketplace for handmade goods with no central inventory.**

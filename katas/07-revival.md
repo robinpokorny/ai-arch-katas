@@ -1,3 +1,10 @@
+---
+title: "07 Revival"
+layout: default
+parent: Katas
+nav_order: 7
+---
+
 # Kata 7: Revival
 
 **A platform for digitising and preserving endangered languages.**

@@ -1,3 +1,10 @@
+---
+title: "02 PaperTrail"
+layout: default
+parent: Katas
+nav_order: 2
+---
+
 # Kata 2: PaperTrail
 
 **A compliance document management system for regulated industries.**

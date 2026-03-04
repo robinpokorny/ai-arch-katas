@@ -1,3 +1,10 @@
+---
+title: "07 The Philosopher"
+layout: default
+parent: Personas
+nav_order: 7
+---
+
 # The Philosopher
 
 > *"Wait — when you say 'customer,' do you mean the person who pays, the person who uses the product, or the legal entity on the contract? These are three different bounded contexts."*

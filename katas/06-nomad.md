@@ -1,3 +1,10 @@
+---
+title: "06 Nomad"
+layout: default
+parent: Katas
+nav_order: 6
+---
+
 # Kata 6: Nomad
 
 **A platform for async-first distributed teams.**

@@ -1,3 +1,10 @@
+---
+title: "06 The Compliance Officer"
+layout: default
+parent: Personas
+nav_order: 6
+---
+
 # The Compliance Officer
 
 > *"Before we continue — has anyone done a threat model? No? Then we're not ready to discuss architecture."*

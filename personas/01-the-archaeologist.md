@@ -1,3 +1,10 @@
+---
+title: "01 The Archaeologist"
+layout: default
+parent: Personas
+nav_order: 1
+---
+
 # The Archaeologist
 
 > *"You know what still works? The system we built in 2003."*

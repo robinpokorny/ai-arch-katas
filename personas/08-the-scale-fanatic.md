@@ -1,3 +1,10 @@
+---
+title: "08 The Scale Fanatic"
+layout: default
+parent: Personas
+nav_order: 8
+---
+
 # The Scale Fanatic
 
 > *"Sure, you have 500 users now, but what happens when you have 500 million? We need to design for that today."*

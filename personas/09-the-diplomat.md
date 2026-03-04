@@ -1,3 +1,10 @@
+---
+title: "09 The Diplomat"
+layout: default
+parent: Personas
+nav_order: 9
+---
+
 # The Diplomat
 
 > *"Show me your org chart and I'll show you your architecture. Conway was right and we keep pretending he wasn't."*

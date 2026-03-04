@@ -1,3 +1,10 @@
+---
+title: "08 Sentinel"
+layout: default
+parent: Katas
+nav_order: 8
+---
+
 # Kata 8: Sentinel
 
 **A city-wide public infrastructure monitoring system.**

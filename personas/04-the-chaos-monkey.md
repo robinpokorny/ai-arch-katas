@@ -1,3 +1,10 @@
+---
+title: "04 The Chaos Monkey"
+layout: default
+parent: Personas
+nav_order: 4
+---
+
 # The Chaos Monkey
 
 > *"That's a great design! Now, what happens when this component fails? And this one? And both at the same time during a full moon?"*

@@ -1,3 +1,10 @@
+---
+title: "03 The Accountant"
+layout: default
+parent: Personas
+nav_order: 3
+---
+
 # The Accountant
 
 > *"A Lambda function costs $0.0000166667 per GB-second. Do you know how many of those you're wasting?"*
