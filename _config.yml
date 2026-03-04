@@ -5,6 +5,15 @@ description: >-
 
 theme: just-the-docs
 
+# Author & social
+author:
+  name: Robin Pokorny
+social:
+  name: Software Design Berlin
+  links:
+    - https://www.meetup.com/software-design-berlin/
+    - https://github.com/robinpokorny/ai-arch-katas
+
 url: "https://robinpokorny.github.io"
 baseurl: "/ai-arch-katas"
 permalink: pretty
@@ -12,6 +21,7 @@ permalink: pretty
 # Plugins
 plugins:
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 # Navigation
 nav_sort: case_insensitive
