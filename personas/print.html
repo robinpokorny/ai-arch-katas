@@ -44,7 +44,7 @@ permalink: /personas/print/
     </div>
     {{ before_prompt }}
     <div class="card-footer">
-      <a class="short-url" href="{{ persona.url | relative_url }}">{{ short_code }}</a>
+      <a class="short-url" href="{{ persona.url | relative_url }}">{{ short_url }}</a>
       <img
         src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&amp;data={{ short_url | uri_encode }}"
         alt="QR code for {{ persona.title }}"
